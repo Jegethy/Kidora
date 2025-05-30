@@ -1,0 +1,242 @@
+.discord-side::-webkit-scrollbar {
+    width: 5px;
+}
+.discord-side::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+.discord-side::-webkit-scrollbar-thumb {
+    background: #caa24c;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar-thumb {
+    background: #caa24c;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: unset !important;
+    }
+}
+.sidebar {
+    width: unset;
+    min-height: unset;
+}
+.card {
+    background-image: linear-gradient(#0c0c0c, #0c0c0c);
+}
+.card-header {
+    background-color: rgb(0 0 0 / 36%);
+}
+.m1x-widget {
+    background-color: #121212;
+    color: white;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    border-left: 10px solid #1c1c1c;
+    border-radius: 2px;
+}
+.m1x-widget-job {
+    padding: 0px 10px 25px;
+}
+.border-bottom {
+    border-bottom: 1px solid #211e1e!important;
+}
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-header {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.download-card {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn[type="submit"], .btn.btn-link {
+    max-width: 160px;
+    text-align: center;
+}
+
+.btn[data-toggle="collapse"] {
+    max-width: unset;
+    text-align: unset;
+}
+
+.btn {
+    max-width: unset;
+    text-align: unset;
+}
+
+.btn-link {
+    color: #858796;
+}
+.btn-link:hover {
+    color: #175c8a;
+}
+#map {
+    position: relative;
+}
+.u-vmenu>ul>li>a {
+    background-color: #080808 !important;
+}
+.u-vmenu ul li a:hover {
+    background-color: #080808 !important;
+}
+.list-group-item {
+    background-color: #0c0c0c;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+    color: #b5b6bf;
+    background-color: #080808;
+}
+.text-black-50 {
+    color: #fff !important;
+}
+input[value="Redeem"] {
+    max-width: 160px;
+}
+.download-card .card-body {
+    padding: 0;
+}
+.btn {
+    letter-spacing: unset;
+    text-transform: unset;
+    width: unset;
+}
+.table-bordered, .table-bordered td, .table-bordered th {
+    border: none;
+}
+.header {
+    height: unset;
+    background-color: #000000a6;
+}
+.navbar1 {
+    background: unset;
+}
+.navbar1:before {
+    content: none;
+}
+.navbar1:after {
+    content: none;
+}
+.sidebar {
+    background-image: url(../../images/header.png);
+}
+.footer {
+    //border-top: 1px solid #1c6e48;
+    box-shadow: none;
+}
+.footer {
+ text-align: unset;
+}
+#footer {
+    background-color: #1a1a1a;
+    color: unset;
+}
+#footer .footer-copyright {
+    background-color: unset;
+}
+#footer h5 {
+    color: white;
+}
+.breadcrumbs {
+    padding: 400px 0 6px;
+    background-image: url(../../images/breadcrumbs-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3 {
+    color: #caa24c;
+}
+.sidebar {
+    border: none;
+    box-shadow: none;
+}
+.collapsible {
+    border-left: none;
+}
+.collapsible.active, .collapsible:hover {
+    border-left: none;
+}
+.footer {
+    border-top: 1px solid #caa24c;
+}
+.page-item.active .page-link, .page-link:hover {
+    color: #caa24c;
+}
+.dt-button.btn-light {
+    color: #dedad6!important;
+    background-color: #2f2f2f!important;
+    border-color: #000!important;
+}
+.dataTables_filter input, .dataTables_length select {
+    background-color: #0c0c0c;
+}
+.dataTables_filter input {
+    border: 1px solid #000;
+}
+.dataTables_length select {
+    border: 1px solid #000;
+}
+.page-item.active .page-link, .page-link:hover {
+    background-color: #0c0c0c;
+    border-color: #000000;
+}
+.page-link {
+    color: #ffffff;
+    background-color: #181818;
+    border-color: #000000;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #caa24c;
+}
+.u-vmenu>ul>li>a:before {
+    color: #caa24c !important;
+}
+.list-group-item.active {
+    background-color: #caa24c;
+    border-color: #caa24c;
+}
+.box-icon-outline {
+    -webkit-text-stroke: 1px #caa24c;
+}
+.box-small-icon-alt .box-icon {
+    border: 1px solid #caa24c;
+}
+[data-theme="dark"] {
+    --body-bg: #121212;
+}
+.m1x-widget {
+    background-color: #0c0c0c;
+}
+.collapsible {
+    background-color: #0c0c0c;
+}
+#footer {
+    background-color: #0c0c0c;
+}
+.blog {
+    background-color: #66666624;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(#0c0c0c, #0c0c0c);
+}
+.navbar-brand {
+    background: url(../images/kidora-logo.png) 0 3px no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
